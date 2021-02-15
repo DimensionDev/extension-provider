@@ -1,6 +1,6 @@
 {
   "name": "@dimensiondev/metamask-extension-provider",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "description": "A module for allowing a WebExtension to access the web3 provider from an installed MetaMask instance.",
   "main": "index.js",
   "type": "index.d.ts",
@@ -23,8 +23,8 @@
   "dependencies": {
     "detect-browser": "^3.0.0",
     "extension-port-stream": "^1.0.0",
-    "inpage-provider-7": "npm:@metamask/inpage-provider@^7.0.0",
-    "inpage-provider-8": "npm:@metamask/inpage-provider@^8.0.3"
+    "inpage-provider-7": "npm:@zhouhancheng/inpage-provider@^7.0.1",
+    "inpage-provider-8": "npm:@zhouhancheng/inpage-provider@^8.0.4"
   },
   "devDependencies": {
     "web3": "^1.3.3"
