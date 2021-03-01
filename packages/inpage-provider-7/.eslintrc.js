@@ -11,6 +11,9 @@ module.exports = {
   plugins: [
     'json',
   ],
+  rules: {
+    'node/no-sync': 'off',
+  },
   parserOptions: {
     ecmaVersion: 2018,
   },
