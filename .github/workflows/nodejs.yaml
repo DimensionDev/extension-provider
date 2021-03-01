@@ -17,8 +17,12 @@ jobs:
       - uses: dimensiondev/github-token-action@latest
         with:
           registry: true
-      - uses: pnpm/action-setup@v1.2.1
+      - uses: actions/cache@v2
         with:
-          version: 5.16.0        
-      - run: pnpm i
+          path: ~/.pnpm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-node-          
+      - run: sudo npm i -g pnpm      
+      - run: npm run ci
       - run: ./scripts/publish-to-github.sh

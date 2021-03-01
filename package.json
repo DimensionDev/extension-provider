@@ -6,7 +6,8 @@
   "type": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildSample": "browserify sample-extension/index.js -o sample-extension/bundle.js"
+    "buildSample": "browserify sample-extension/index.js -o sample-extension/bundle.js",
+    "ci": "pnpm install --frozen-lockfile --store-dir ~/.pnpm/"
   },
   "repository": "https://github.com/DimensionDev/extension-provider",
   "keywords": [
