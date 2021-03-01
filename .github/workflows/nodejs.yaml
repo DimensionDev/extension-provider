@@ -17,5 +17,8 @@ jobs:
       - uses: dimensiondev/github-token-action@latest
         with:
           registry: true
-      - run: npm ci
+      - uses: pnpm/action-setup@v1.2.1
+        with:
+          version: 5.16.0        
+      - run: pnpm i
       - run: ./scripts/publish-to-github.sh
