@@ -2,6 +2,7 @@
   "name": "@dimensiondev/inpage-provider-8",
   "private": true,    
   "main": "dist/index.js",
+  "version": "8.0.4",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --project .",
