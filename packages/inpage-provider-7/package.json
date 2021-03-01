@@ -1,0 +1,36 @@
+{
+  "name": "@dimensiondev/inpage-provider-7",
+  "private": true,  
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "eslint . --ext js,json",
+    "lint:fix": "eslint . --ext js,json --fix"
+  },
+  "files": [
+    "./src/",
+    "./index.d.ts"
+  ],
+  "dependencies": {
+    "eth-rpc-errors": "^2.1.1",
+    "fast-deep-equal": "^2.0.1",
+    "is-stream": "^2.0.0",
+    "json-rpc-engine": "^6.1.0",
+    "json-rpc-middleware-stream": "^2.1.1",
+    "obj-multiplex": "^1.0.0",
+    "obs-store": "^4.0.3",
+    "pump": "^3.0.0",
+    "safe-event-emitter": "^1.0.1"
+  },
+  "devDependencies": {
+    "@metamask/eslint-config": "3.1.0",
+    "@types/jest": "^26.0.5",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.18.0",
+    "eslint-plugin-json": "^2.0.1",
+    "jest": "^26.1.0"
+  }
+}

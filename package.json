@@ -23,8 +23,8 @@
   "dependencies": {
     "detect-browser": "^3.0.0",
     "extension-port-stream": "^1.0.0",
-    "inpage-provider-7": "npm:@zhouhancheng/inpage-provider@^7.0.1",
-    "inpage-provider-8": "npm:@zhouhancheng/inpage-provider@^8.0.4"
+    "@dimensiondev/inpage-provider-7": "workspace:*",
+    "@dimensiondev/inpage-provider-8": "workspace:*"
   },
   "devDependencies": {
     "web3": "^1.3.3"

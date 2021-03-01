@@ -1,5 +1,5 @@
-const { MetaMaskInpageProvider: MetaMaskInpageProviderV7 } = require('inpage-provider-7')
-const { MetaMaskInpageProvider: MetaMaskInpageProviderV8 } = require('inpage-provider-8')
+const { MetaMaskInpageProvider: MetaMaskInpageProviderV7 } = require('@dimensiondev/inpage-provider-7')
+const { MetaMaskInpageProvider: MetaMaskInpageProviderV8 } = require('@dimensiondev/inpage-provider-8')
 const PortStream = require('extension-port-stream')
 const { detect } = require('detect-browser')
 const browser = detect()
