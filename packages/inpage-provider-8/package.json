@@ -1,6 +1,5 @@
 {
-  "name": "@dimensiondev/inpage-provider-8",
-  "private": true,    
+  "name": "@dimensiondev/inpage-provider-8",  
   "main": "dist/index.js",
   "version": "8.0.4",
   "types": "dist/index.d.ts",

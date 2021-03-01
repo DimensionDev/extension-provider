@@ -24,8 +24,8 @@
   "dependencies": {
     "detect-browser": "^3.0.0",
     "extension-port-stream": "^1.0.0",
-    "@dimensiondev/inpage-provider-7": "workspace:*",
-    "@dimensiondev/inpage-provider-8": "workspace:*"
+    "@dimensiondev/inpage-provider-7": "workspace:7.0.0",
+    "@dimensiondev/inpage-provider-8": "workspace:8.0.4"
   },
   "devDependencies": {
     "web3": "^1.3.3"
